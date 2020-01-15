@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input,Output,EventEmitter } from '@angular/core';
+
 
 @Component({
   selector: 'app-postquestion',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./postquestion.component.css']
 })
 export class PostquestionComponent implements OnInit {
+  
 
+  
   constructor() { }
+    
 
   ngOnInit() {
+    
   }
+  
+
 
 }

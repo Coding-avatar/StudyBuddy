@@ -1,0 +1,8 @@
+.logo {
+    height: 250px;
+    width: 150px;
+    padding: 10px;
+    /* display: block; */
+    margin: 1px;
+    background:url('/assets/pattern.jpg') no-repeat center center;
+}

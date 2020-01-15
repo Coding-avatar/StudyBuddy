@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
+import { questions } from '../questions';
+import { Output } from '@angular/core';
+import { EventEmitter} from '@angular/core';
+
 
 @Component({
   selector: 'app-displayquestion',
@@ -6,8 +10,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./displayquestion.component.css']
 })
 export class DisplayquestionComponent implements OnInit {
-
-  constructor() { }
+  questions=questions
+  // share(){
+  //   window.alert('shared');
+  // }
+  
+ 
 
   ngOnInit() {
   }

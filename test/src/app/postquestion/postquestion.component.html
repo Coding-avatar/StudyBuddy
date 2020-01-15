@@ -1,1 +1,10 @@
-<p>postquestion works!</p>
+<div class="text">
+    <h2>Editor</h2>
+    <textarea name="text" id="message" cols="100" rows="30"></textarea><br>
+    <input type="file">
+</div>
+<script src="/ckeditor.js"></script>
+<script>
+CKEDITOR.replace('text')
+</script>
+<button class="submit">Submit</button>

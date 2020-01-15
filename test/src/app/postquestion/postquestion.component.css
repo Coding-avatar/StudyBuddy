@@ -1,0 +1,10 @@
+#message{
+    border-color: blue;
+    border-radius: 5px;
+}
+.submit{
+    padding:15px;
+    background-color:blue;
+    color:white;
+    margin:10px;
+}
