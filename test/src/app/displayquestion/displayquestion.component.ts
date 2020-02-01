@@ -1,7 +1,7 @@
 import { Component, OnInit} from '@angular/core';
-import { questions } from '../questions';
-import { Output } from '@angular/core';
-import { EventEmitter} from '@angular/core';
+import { allquestions } from '../questions';
+// import { Output } from '@angular/core';
+// import { EventEmitter} from '@angular/core';
 
 
 @Component({
@@ -10,12 +10,10 @@ import { EventEmitter} from '@angular/core';
   styleUrls: ['./displayquestion.component.css']
 })
 export class DisplayquestionComponent implements OnInit {
-  questions=questions
+  allquestions = allquestions
   // share(){
   //   window.alert('shared');
   // }
-  
- 
 
   ngOnInit() {
   }
